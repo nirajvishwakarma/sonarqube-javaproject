@@ -1,13 +1,7 @@
-public class Main {
+<project>
+  <modelVersion>4.0.0</modelVersion>
 
-  public static void main(String[] args) {
-    int rows = 5;
-
-    for (int i = 1; i <= rows; ++i) {
-      for (int j = 1; j <= i; ++j) {
-        System.out.print(j + " ");
-      }
-      System.out.println();
-    }
-  }
-}
+  <groupId>niraj-vishwakarma</groupId>
+  <artifactId>pyramid</artifactId>
+  <version>1</version>
+</project>
